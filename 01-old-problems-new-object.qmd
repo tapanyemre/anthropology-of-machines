@@ -1,4 +1,4 @@
-# Why This Is Our Problem {#sec-our-problem}
+# Old Problems, New Object {#sec-old-problems}
 
 <!-- CHAPTER TARGET: 3,000 words. Status: not started.
      START HERE (2.1-2.3). Pure argument, no new reading, draws on the SICSS talk. Fixes the book's voice. -->

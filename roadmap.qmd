@@ -1,29 +1,33 @@
 # Roadmap {.unnumbered}
 
-*The Anthropology of Machines* is a working draft, written in the open. This page is the plan: the chapters, what each one covers, and where each one stands. It will change as the book grows.
-
-The preface is up. The chapters are outlined and being written one at a time; each appears here once it is readable, not when it is finished.
-
-## The plan
+I am writing this book in the open, one chapter at a time. That is partly discipline: a public draft is one you have to keep honest. And partly an invitation: the field is moving fast, and I would rather think it through where you can push back. This page is the map — the plan of the book, what is ready to read, and what comes next.
 
 **Preface** — why this book exists, and how it is being written. · *Published*
 
-**1. Introduction** — the two ways to relate to a language model, who the book is for, and how to use it. · *Planned*
+**Introduction** — two ways to relate to a language model; who this book is for; how to use it. · *Later*
 
-**2. Why This Is Our Problem** — interpretability's open questions are measurement questions; validity, thick description, and the difference between representing and intervening. · *Planned*
+## I. Foundations
 
-**3. Foundations** — neural networks, embeddings, attention, the residual stream, and superposition, only as far as the later chapters need. · *Planned*
+**1. Old Problems, New Object** — the argument of the book: interpretability's open questions are measurement questions. Constructs, validity, reliability — and the difference between representing and intervening. · *Next*
 
-**4. Observing** — reading a model from the outside: probes, the logit lens, sparse autoencoders, and ways to compare representations. · *Planned*
+**2. How Language Models Work** — the object itself: neural networks, embeddings, attention, the residual stream, and superposition, only as far as the methods require. · *Later*
 
-**5. Intervening** — changing a model to see what matters: activation patching, ablation, circuits, attribution graphs, and steering. · *Planned*
+## II. Methods
 
-**6. Faithfulness** — how to know an interpretability result is true: benchmarks, metrics, and reliability. · *Planned*
+**3. Observation** — descriptive inference about a model's internals: probes, the logit lens, sparse autoencoders, and comparing representations. · *Later*
 
-**7. A Worked Case** — ideology inside a model, from question to design to what the result actually licenses. · *Planned*
+**4. Intervention** — causal inference about a model's internals: activation patching, ablation, circuits, attribution graphs, and steering. · *Later*
 
-**8. Open Directions** — what social science should build next. · *Planned*
+**5. Validation** — how to know a result is true: benchmarks, metrics, and reliability. · *Later*
+
+## III. Application
+
+**6. The Ideology of Language Models** — a full study, from research question to design to what the result licenses. · *Later*
+
+**Conclusion** — what social science should build next. · *Later*
 
 ---
 
-Two things organize the book: **observing** a model and **intervening** in it. Observation tells you what is there; intervention tells you what matters. Every methods chapter ends by asking what its technique lets you claim, and what it does not.
+Every methods chapter closes the same way: what does this technique license you to claim, and what does it not?
+
+If you want to follow along, the source lives on [GitHub](https://github.com/tapanyemre/anthropology-of-machines); every page has a "Report an issue" link, or write to me at [tapan.y@northeastern.edu](mailto:tapan.y@northeastern.edu).

@@ -8,12 +8,18 @@ book:
   chapters:
     - index.qmd
     - roadmap.qmd
-    - 01-introduction.qmd
-    - 02-why-our-problem.qmd
-    - 03-foundations.qmd
-    - 04-observing.qmd
-    - 05-intervening.qmd
-    - 06-faithfulness.qmd
-    - 07-case-ideological-geometry.qmd
-    - 08-open-directions.qmd
+    - 00-introduction.qmd
+    - part: "Foundations"
+      chapters:
+        - 01-old-problems-new-object.qmd
+        - 02-how-language-models-work.qmd
+    - part: "Methods"
+      chapters:
+        - 03-observation.qmd
+        - 04-intervention.qmd
+        - 05-validation.qmd
+    - part: "Application"
+      chapters:
+        - 06-ideology-of-language-models.qmd
+    - 07-conclusion.qmd
     - references.qmd

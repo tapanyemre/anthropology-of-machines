@@ -1,4 +1,4 @@
-# Open Directions {#sec-open}
+# Conclusion {#sec-conclusion .unnumbered}
 
 <!-- CHAPTER TARGET: 1,000 words. Status: not started.
      Agenda-setting close. -->

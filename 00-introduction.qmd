@@ -1,4 +1,4 @@
-# Introduction {#sec-intro}
+# Introduction {#sec-introduction .unnumbered}
 
 <!-- CHAPTER TARGET: 2,000 words. Status: not started.
      Written last among ch.1-2; it promises what the rest delivers. -->

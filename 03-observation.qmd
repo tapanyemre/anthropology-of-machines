@@ -1,4 +1,4 @@
-# Observing {#sec-observing}
+# Observation {#sec-observation}
 
 <!-- CHAPTER TARGET: 6,000 words. Status: not started.
      Write after reading the SURVEY leads, not from search summaries. -->

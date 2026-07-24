@@ -1,4 +1,4 @@
-# Foundations {#sec-foundations}
+# How Language Models Work {#sec-how-models-work}
 
 <!-- CHAPTER TARGET: 4,500 words. Status: not started.
      Ruthlessly short. Only what ch.4-5 actually use. -->

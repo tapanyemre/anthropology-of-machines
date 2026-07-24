@@ -1,4 +1,4 @@
-# Intervening {#sec-intervening}
+# Intervention {#sec-intervention}
 
 <!-- CHAPTER TARGET: 6,000 words. Status: not started.
      Write after reading the SURVEY leads. -->

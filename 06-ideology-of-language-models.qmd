@@ -1,4 +1,4 @@
-# A Worked Case: Ideology Inside the Model {#sec-case}
+# The Ideology of Language Models {#sec-ideology}
 
 <!-- CHAPTER TARGET: 2,500 words. Status: not started.
      Write last among content chapters — applies the device from ch.4-6. -->

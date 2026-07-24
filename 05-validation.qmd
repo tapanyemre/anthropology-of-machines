@@ -1,4 +1,4 @@
-# Faithfulness {#sec-faithfulness}
+# Validation {#sec-validation}
 
 <!-- CHAPTER TARGET: 4,000 words. Status: not started.
      The reflexive chapter — the device turned on the field. -->
