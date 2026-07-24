@@ -1,29 +1,29 @@
 # Preface {.unnumbered}
 
-<!-- FIRST VERSION, Emre's draft, lightly copy-edited. Plain register.
-     "It's just unread" and the closing "a new object to turn it on" are his own lines
-     (SICSS-Istanbul talk and Substack essay, July 2026). -->
+<!-- Preface. "A model is not a black box anymore. It is just unread." echoes his
+     SICSS-Istanbul talk (July 2026). Reviewer-passed and copy-edited 24 July 2026;
+     plain register, his voice. -->
 
-Social scientists study things we cannot see directly. Institutions, norms, beliefs, ideology. Most of our training is about that problem: how to define such a concept, how to build a measure for it, and how to check whether the measure means what we say it means.
+Social scientists mostly study latent constructs we cannot see directly. Institutions, norms, beliefs, ideology. Most of our training is about that problem: how to define such a phenomenon, how to build a measure for it, and how to check whether the measure means what we say it means.
 
 Now many of us work with language models. They label our texts, build our software, and are sometimes used as synthetic respondents. We ask them to measure what we want to measure, but most of the time we have no idea what happens between the prompt and the output — or whether the output means what we think it does.
 
-This book is motivated by the reality that language models are not programmed but trained. That makes them opaque, and hard to interpret. How do they arrive at their outputs? What is happening inside the layers? How do they behave?
+This book is motivated by the reality that language models are not programmed but trained. That makes them opaque, and hard to interpret. How do they arrive at their outputs? What is happening inside the layers? Why do they behave the way they do?
 
 I did not start with those questions. I came to this by a side door. In summer 2025, Kathleen Creel invited me to lead the programming sessions of the AIDE summer program at Northeastern's Ethics Institute. My job was to teach the familiar way of interrogating machine learning: fairness in algorithms, interpretable models, what a classifier is really doing when it makes a decision. One week was different. We had a guest lecturer from the NDIF team (the National Deep Inference Fabric at Northeastern) teach the logit lens, a method for looking at how a language model builds its prediction of the next word, layer by layer. The NDIF team made this possible through a library called nnsight, which let us reach inside a model running on their GPUs. Nobody in the room needed a GPU.
 
-That week changed what I thought these systems were. A model is not a black box anymore. It is just unread.
+That week changed what I thought these systems were. A model is not a black box anymore. It is just unread. Learning to read it is the hard part.
 
 I was working on a different problem at the time: whether a language model measures the construct we ask it to measure, tested from the outside with behavioral experiments. I had been treating the model as an instrument and asking whether the instrument was valid. What that week showed me was that the same question could be asked from the inside. But I was not equipped to observe models and intervene on them as a social scientist.
 
-In November 2025, David Bau emailed about a course he would teach that spring, Neural Mechanics: a full semester of mechanistic interpretability, worked through in teams of computer science students and social scientists. As the only political scientist invited, I proposed a project on the political ideology of models, and it was accepted. Through the spring of 2026, Bau taught us from the foundations up. First how to observe a model, then how to intervene on it, all with open models and open source tools. My team spent the semester probing and steering sycophancy. I kept working on ideology on my own, and that is a working paper now.
+In November 2025, David Bau emailed me about a course he would teach that spring, Neural Mechanics: a full semester of mechanistic interpretability, worked through in teams of computer science students and social scientists. As the only political scientist invited, I proposed a project on the political ideology of models, and it was accepted. Through the spring of 2026, Bau taught us from the foundations up. First how to observe a model, then how to intervene on it, all with open models and open source tools. My team spent the semester probing and steering political sycophancy. I kept working on ideology on my own, and that is a working paper now.
 
 I took notes the whole time, mostly about what I had to translate. This book is growing out of those notes.
 
-Its structure follows the two things you can do to a model. You can observe it: train a probe, read a feature, watch a prediction take shape across layers. And you can intervene on it: patch an activation, remove a component, push a representation in some direction and see what changes. Observation tells you what is there. Only intervention tells you what matters. Every methods chapter ends by asking what the technique lets you claim, and what it does not.
+Its structure follows what you can do to a model. You can observe it: train a probe, read a feature, watch a prediction take shape across layers. You can intervene on it: patch an activation, remove a component, push a representation in some direction and see what changes. Observation tells you what you can find — descriptive inference. Intervention tells you what the model actually uses — causal inference. And a third chapter, validation, asks how you know either one showed you what you think it did. Every methods chapter ends the same way: what does this technique let you claim, and what does it not?
 
 I am writing for two kinds of readers. Social scientists who want to study these models and not only use them. And interpretability researchers who keep running into measurement problems and may want to hear the concepts and methods from a social scientist's standpoint.
 
 A note on how this is being written. It is a working draft, in the open. Chapters appear when they become readable, not when they are finished, and the missing ones are being written. I plan to design the hands-on parts so that, wherever possible, they do not require a personal GPU; where one is needed, I will point to the cheapest and most accessible ways to rent it. If something is wrong, unclear, or missing, tell me at [tapan.y@northeastern.edu](mailto:tapan.y@northeastern.edu), in the comments under any page (they need a GitHub account), or use the "Report an issue" link.
 
-Social scientists and philosophers have already teamed up with computer scientists to make algorithms and statistical models more interpretable. Language models are just a new object to turn that work on — one that requires new skills and tools.
+Social scientists, philosophers, statisticians, and computer scientists have already worked together to make algorithms and machine-learning models more interpretable. Language models are a new object for that same effort — one that requires new skills and tools.
