@@ -34,6 +34,7 @@ book:
       A working draft
   chapters:
     - index.qmd
+    - roadmap.qmd
     - references.qmd
 
 format:
