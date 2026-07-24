@@ -32,6 +32,16 @@ book:
       © 2026 Yunus Emre Tapan
     right: |
       A working draft
+  comments:
+    giscus:
+      repo: tapanyemre/anthropology-of-machines
+      repo-id: "R_kgDOTh5YUg"
+      category: General
+      category-id: "DIC_kwDOTh5YUs4DB2et"
+      mapping: pathname
+      reactions-enabled: true
+      input-position: bottom
+      theme: preferred_color_scheme
   chapters:
     - index.qmd
     - roadmap.qmd
