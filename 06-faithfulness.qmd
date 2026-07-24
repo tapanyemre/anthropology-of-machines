@@ -25,5 +25,5 @@
 
 ## A reporting checklist
 
-<!-- 500 words · feeds: the most reusable page in the Element -->
+<!-- 500 words · feeds: the most reusable page in the book -->
 

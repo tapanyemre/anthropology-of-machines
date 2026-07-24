@@ -24,4 +24,4 @@ details against sources, and for running the tooling that builds and publishes t
 to write the prose. The book is drafted in public, chapter by chapter, and the commit history
 reflects that.
 
-Found something wrong, unclear, or missing? Open an issue, or comment under any page.
+Found something wrong, unclear, or missing? Open an issue, or email me at tapan.y@northeastern.edu.
