@@ -14,7 +14,27 @@
     "href": "roadmap.html",
     "title": "Roadmap",
     "section": "",
-    "text": "The plan\nThe Anthropology of Machines is a working draft, written in the open. This page is the plan: the chapters, what each one covers, and where each one stands. It will change as the book grows.\nThe preface is up. The chapters are outlined and being written one at a time; each appears here once it is readable, not when it is finished.\nPreface — why this book exists, and how it is being written. · Published\n1. Introduction — the two ways to relate to a language model, who the book is for, and how to use it. · Planned\n2. Why This Is Our Problem — interpretability’s open questions are measurement questions; validity, thick description, and the difference between representing and intervening. · Planned\n3. Foundations — neural networks, embeddings, attention, the residual stream, and superposition, only as far as the later chapters need. · Planned\n4. Observing — reading a model from the outside: probes, the logit lens, sparse autoencoders, and ways to compare representations. · Planned\n5. Intervening — changing a model to see what matters: activation patching, ablation, circuits, attribution graphs, and steering. · Planned\n6. Faithfulness — how to know an interpretability result is true: benchmarks, metrics, and reliability. · Planned\n7. A Worked Case — ideology inside a model, from question to design to what the result actually licenses. · Planned\n8. Open Directions — what social science should build next. · Planned\nTwo things organize the book: observing a model and intervening in it. Observation tells you what is there; intervention tells you what matters. Every methods chapter ends by asking what its technique lets you claim, and what it does not.",
+    "text": "I. Foundations\nI am writing this book in the open, one chapter at a time. That is partly discipline: a public draft is one you have to keep honest. And partly an invitation: the field is moving fast, and I would rather think it through where you can push back. This page is the map — the plan of the book, what is ready to read, and what comes next.\nPreface — why this book exists, and how it is being written. · Published\nIntroduction — two ways to relate to a language model; who this book is for; how to use it. · Later\n1. Old Problems, New Object — the argument of the book: interpretability’s open questions are measurement questions. Constructs, validity, reliability — and the difference between representing and intervening. · Next\n2. How Language Models Work — the object itself: neural networks, embeddings, attention, the residual stream, and superposition, only as far as the methods require. · Later",
+    "crumbs": [
+      "Roadmap"
+    ]
+  },
+  {
+    "objectID": "roadmap.html#ii.-methods",
+    "href": "roadmap.html#ii.-methods",
+    "title": "Roadmap",
+    "section": "II. Methods",
+    "text": "II. Methods\n3. Observation — descriptive inference about a model’s internals: probes, the logit lens, sparse autoencoders, and comparing representations. · Later\n4. Intervention — causal inference about a model’s internals: activation patching, ablation, circuits, attribution graphs, and steering. · Later\n5. Validation — how to know a result is true: benchmarks, metrics, and reliability. · Later",
+    "crumbs": [
+      "Roadmap"
+    ]
+  },
+  {
+    "objectID": "roadmap.html#iii.-application",
+    "href": "roadmap.html#iii.-application",
+    "title": "Roadmap",
+    "section": "III. Application",
+    "text": "III. Application\n6. The Ideology of Language Models — a full study, from research question to design to what the result licenses. · Later\nConclusion — what social science should build next. · Later\n\nEvery methods chapter closes the same way: what does this technique license you to claim, and what does it not?\nIf you want to follow along, the source lives on GitHub; every page has a “Report an issue” link, or write to me at tapan.y@northeastern.edu.",
     "crumbs": [
       "Roadmap"
     ]
