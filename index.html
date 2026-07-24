@@ -375,7 +375,7 @@ ul.task-list li input[type="checkbox"] {
 <p>I took notes the whole time, mostly about what I had to translate. This book is growing out of those notes.</p>
 <p>Its structure follows the two things you can do to a model. You can observe it: train a probe, read a feature, watch a prediction take shape across layers. And you can intervene on it: patch an activation, remove a component, push a representation in some direction and see what changes. Observation tells you what is there. Only intervention tells you what matters. Every methods chapter ends by asking what the technique lets you claim, and what it does not.</p>
 <p>I am writing for two kinds of readers. Social scientists who want to study these models and not only use them. And interpretability researchers who keep running into measurement problems and may want to hear the concepts and methods from a social scientist’s standpoint.</p>
-<p>A note on how this is being written. It is a working draft, in the open. Chapters appear when they become readable, not when they are finished, and the missing ones are being written. For the hands-on parts, I plan to design them so they do not require a personal GPU whenever possible; where one is needed, I will point to the cheapest and most accessible ways to rent it. If something is wrong, unclear, or missing, tell me at <a href="mailto:tapan.y@northeastern.edu">tapan.y@northeastern.edu</a>, or use the “Report an issue” link on any page.</p>
+<p>A note on how this is being written. It is a working draft, in the open. Chapters appear when they become readable, not when they are finished, and the missing ones are being written. For the hands-on parts, I plan to design them so they do not require a personal GPU whenever possible; where one is needed, I will point to the cheapest and most accessible ways to rent it. If something is wrong, unclear, or missing, tell me at <a href="mailto:tapan.y@northeastern.edu">tapan.y@northeastern.edu</a>, in the comments under any page (they need a GitHub account), or use the “Report an issue” link.</p>
 <p>Social scientists and philosophers have already teamed up with computer scientists to make algorithms and statistical models more interpretable. Language models are just a new object to turn that work on — one that requires new skills and tools.</p>
 
 
@@ -794,6 +794,38 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="preferred_color_scheme">
+<input type="hidden" id="giscus-alt-theme" value="preferred_color_scheme">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      if (authorPrefersDark) {
+          [baseTheme, altTheme] = [altTheme, baseTheme];
+      }
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "tapanyemre/anthropology-of-machines";
+    script.dataset.repoId = "R_kgDOTh5YUg";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "DIC_kwDOTh5YUs4DB2et";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
   </div>
