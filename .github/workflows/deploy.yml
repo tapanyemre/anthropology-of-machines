@@ -1,0 +1,51 @@
+name: Deploy Book
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install Quarto
+      run: |
+        wget -q https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.33/quarto-1.7.33-linux-amd64.deb
+        sudo dpkg -i quarto-1.7.33-linux-amd64.deb
+        quarto --version
+
+    # Renders the DEFAULT profile only — the published chapters listed in
+    # _quarto.yml. Drafts in _quarto-full.yml are never built here.
+    - name: Render book
+      run: quarto render
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_book
+
+    # Tell yemretapan.com to rebuild so the copy served at
+    # /anthropology-of-machines picks up this build. No-op (does not fail the
+    # deploy) until the SITE_DISPATCH_TOKEN secret is set.
+    - name: Refresh the book on yemretapan.com
+      continue-on-error: true
+      env:
+        SITE_DISPATCH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+      run: |
+        if [ -z "$SITE_DISPATCH_TOKEN" ]; then
+          echo "SITE_DISPATCH_TOKEN not set — skipping the yemretapan.com rebuild trigger."
+          exit 0
+        fi
+        curl -sS -f -X POST \
+          -H "Authorization: Bearer $SITE_DISPATCH_TOKEN" \
+          -H "Accept: application/vnd.github+json" \
+          https://api.github.com/repos/tapanyemre/yemretapan.com/dispatches \
+          -d '{"event_type":"book-updated"}' \
+          && echo "Triggered yemretapan.com rebuild."

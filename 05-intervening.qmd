@@ -1,0 +1,37 @@
+# Intervening {#sec-intervening}
+
+<!-- CHAPTER TARGET: 6,000 words. Status: not started.
+     Write after reading the SURVEY leads. -->
+
+## The logic of intervention
+
+<!-- 700 words · feeds: new — Hacking cashed out -->
+
+## Activation patching
+
+<!-- 900 words · feeds: _kb/drafts/interp-04 (stub only) -->
+
+## Ablation
+
+<!-- 700 words · feeds: _kb/drafts/interp-05 (stub only) -->
+
+## Path patching and circuit discovery
+
+<!-- 800 words · feeds: new -->
+
+## Attribution graphs and cross-layer transcoders
+
+<!-- 900 words · feeds: SURVEY §2 — current center of gravity; replication story -->
+
+## Steering vectors and their reliability problem
+
+<!-- 900 words · feeds: SURVEY §2 — fragile probe, not control knob -->
+
+## Interchange interventions and causal abstraction
+
+<!-- 600 words · feeds: SURVEY §2 — IIA as graded metric -->
+
+## Validity check: intervention
+
+<!-- 500 words · feeds: the device -->
+

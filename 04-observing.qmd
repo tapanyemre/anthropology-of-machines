@@ -1,0 +1,37 @@
+# Observing {#sec-observing}
+
+<!-- CHAPTER TARGET: 6,000 words. Status: not started.
+     Write after reading the SURVEY leads, not from search summaries. -->
+
+## Probes: regression on activations
+
+<!-- 800 words · feeds: new — deliberately first; most familiar to this audience -->
+
+## What a probe licenses: decodable is not used
+
+<!-- 700 words · feeds: new — the chapter's hinge; sets up ch.5 -->
+
+## The logit lens
+
+<!-- 700 words · feeds: _kb/drafts/interp-02 -->
+
+## Sparse autoencoders: unmixing superposition
+
+<!-- 900 words · feeds: _kb/drafts/interp-03 — the idea, not the engineering -->
+
+## Reading features in practice
+
+<!-- 700 words · feeds: _kb/drafts/interp-03 — Neuronpedia, Gemma Scope 2 -->
+
+## The SAE debate
+
+<!-- 900 words · feeds: SURVEY §2 — seed non-uniqueness; L1; scaling -->
+
+## Comparing representations
+
+<!-- 800 words · feeds: _kb/drafts/found-02 — cosine, RSA, information measures -->
+
+## Validity check: observation
+
+<!-- 500 words · feeds: the device -->
+

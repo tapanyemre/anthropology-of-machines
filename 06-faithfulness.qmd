@@ -1,0 +1,29 @@
+# Faithfulness {#sec-faithfulness}
+
+<!-- CHAPTER TARGET: 4,000 words. Status: not started.
+     The reflexive chapter — the device turned on the field. -->
+
+## How would you know an interpretability result is true?
+
+<!-- 600 words · feeds: new -->
+
+## Benchmarks: MIB and what it measures
+
+<!-- 700 words · feeds: SURVEY §2 -->
+
+## Metrics: IIA and interventional fidelity
+
+<!-- 700 words · feeds: SURVEY §2 -->
+
+## Reliability: seeds, prompts, multi-turn drift
+
+<!-- 800 words · feeds: SURVEY §2 — same logic as inter-coder reliability -->
+
+## What psychometrics already knows
+
+<!-- 700 words · feeds: new — payoff of ch.2 -->
+
+## A reporting checklist
+
+<!-- 500 words · feeds: the most reusable page in the Element -->
+

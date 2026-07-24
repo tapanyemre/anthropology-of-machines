@@ -1,0 +1,18 @@
+# ============================================================
+# FULL PROFILE = the whole manuscript, drafts included.
+#   quarto preview --profile full
+# Nothing here is published until its line is copied into _quarto.yml.
+# ============================================================
+
+book:
+  chapters:
+    - index.qmd
+    - 01-introduction.qmd
+    - 02-why-our-problem.qmd
+    - 03-foundations.qmd
+    - 04-observing.qmd
+    - 05-intervening.qmd
+    - 06-faithfulness.qmd
+    - 07-case-ideological-geometry.qmd
+    - 08-open-directions.qmd
+    - references.qmd

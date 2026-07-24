@@ -1,0 +1,25 @@
+# Introduction {#sec-intro}
+
+<!-- CHAPTER TARGET: 2,000 words. Status: not started.
+     Written last among ch.1-2; it promises what the rest delivers. -->
+
+## Two stances: the model as instrument, the model as object
+
+<!-- 500 words · feeds: _kb/drafts/interp-01 -->
+
+## Why now
+
+<!-- 400 words · feeds: SURVEY.md §1 — MIT Tech Review 2026 breakthrough list; tooling democratized -->
+
+## Who this is for
+
+<!-- 300 words · feeds: new -->
+
+## What this Element does and does not do
+
+<!-- 400 words · feeds: new -->
+
+## How to use it
+
+<!-- 400 words · feeds: new — companion repo; no GPU required (Neuronpedia → NDIF) -->
+

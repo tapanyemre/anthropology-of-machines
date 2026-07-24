@@ -1,0 +1,25 @@
+# Why This Is Our Problem {#sec-our-problem}
+
+<!-- CHAPTER TARGET: 3,000 words. Status: not started.
+     START HERE (2.1-2.3). Pure argument, no new reading, draws on the SICSS talk. Fixes the book's voice. -->
+
+## Interpretability's open problems are measurement problems
+
+<!-- 700 words · feeds: _kb/drafts/interp-01; SICSS talk -->
+
+## Thick description and process-tracing
+
+<!-- 600 words · feeds: SICSS talk -->
+
+## Representing and intervening
+
+<!-- 700 words · feeds: Hacking 1983 — see _kb/literature/ -->
+
+## Construct validity, applied to machines
+
+<!-- 600 words · feeds: ~/Desktop/Concepts/Systemic Fragmentation/05-measurement-and-concept-formation (quote-verified) -->
+
+## What goes wrong when this step is skipped
+
+<!-- 400 words · feeds: new — decodable ≠ used, previewed -->
+

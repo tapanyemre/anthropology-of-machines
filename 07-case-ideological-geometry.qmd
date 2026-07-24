@@ -1,0 +1,21 @@
+# A Worked Case: Ideology Inside the Model {#sec-case}
+
+<!-- CHAPTER TARGET: 2,500 words. Status: not started.
+     Write last among content chapters — applies the device from ch.4-6. -->
+
+## The question and the design
+
+<!-- 600 words · feeds: ~/Desktop/Research/Mechanistic Interpretability/Paper_ideological-geometry -->
+
+## What observation showed
+
+<!-- 700 words · feeds: geometry paper — CORRECTED findings only (asymmetric constraint; domain-not-stance) -->
+
+## What intervention added
+
+<!-- 700 words · feeds: geometry paper — or state honestly what it would take, if not yet run -->
+
+## What the result licenses
+
+<!-- 500 words · feeds: the device, applied to your own work -->
+

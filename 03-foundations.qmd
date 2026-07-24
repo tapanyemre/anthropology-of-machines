@@ -1,0 +1,29 @@
+# Foundations {#sec-foundations}
+
+<!-- CHAPTER TARGET: 4,500 words. Status: not started.
+     Ruthlessly short. Only what ch.4-5 actually use. -->
+
+## The forward pass as a series of small votes
+
+<!-- 700 words · feeds: _kb/drafts/found-01 -->
+
+## Embeddings: meaning as geometry
+
+<!-- 700 words · feeds: _kb/drafts/found-02 -->
+
+## Attention
+
+<!-- 700 words · feeds: _kb/drafts/found-03 -->
+
+## The residual stream as working memory
+
+<!-- 800 words · feeds: _kb/drafts/found-03 — organizing idea for everything downstream -->
+
+## Superposition and polysemanticity
+
+<!-- 900 words · feeds: _kb/drafts/interp-03 — why features are not neurons -->
+
+## The linear representation hypothesis and its critics
+
+<!-- 700 words · feeds: new — state as contested -->
+

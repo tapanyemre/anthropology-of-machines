@@ -1,0 +1,67 @@
+# ============================================================
+# DEFAULT PROFILE = the PUBLISHED book (what readers see).
+# Only chapters listed here are rendered and deployed.
+#
+# The full manuscript (drafts included) lives in _quarto-full.yml.
+#   Preview everything locally:  quarto preview --profile full
+#   Publish a chapter:           move its line from _quarto-full.yml
+#                                into the chapters list below
+#                                (keep it in _quarto-full.yml too).
+#
+# NOTE: crossrefs (@sec-) from a published chapter to an unpublished
+# one render as "?" — mind publish order.
+# ============================================================
+
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "The Anthropology of Machines"
+  subtitle: "Mechanistic Interpretability for Social Scientists"
+  author: "Yunus Emre Tapan"
+  date: last-modified
+  site-url: https://yemretapan.com/anthropology-of-machines
+  repo-url: https://github.com/tapanyemre/anthropology-of-machines
+  repo-actions: [edit, issue]
+  reader-mode: true
+  sidebar:
+    search: true
+  page-footer:
+    left: |
+      © 2026 Yunus Emre Tapan
+    right: |
+      A working draft
+  chapters:
+    - index.qmd
+    - references.qmd
+
+format:
+  html:
+    theme:
+      light: [default, theme-bliss-light.scss]
+      dark: [default, theme-bliss-dark.scss]
+    respect-user-color-scheme: true
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    number-sections: true
+    code-copy: true
+    citations-hover: true
+    footnotes-hover: true
+    crossrefs-hover: true
+    fig-cap-location: bottom
+
+# Code is display-only while the book is a draft: no kernel is started,
+# nothing executes at render time.
+execute:
+  enabled: false
+  echo: true
+  eval: false
+
+bibliography: references.bib
+
+editor_options:
+  markdown:
+    wrap: sentence
+    canonical: true
